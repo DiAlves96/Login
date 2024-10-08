@@ -4,13 +4,13 @@
 #80A7BA
 #161719
 */
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Playwrite DE Grund", system-ui;
+    font-family: "Poppins", sans-serif;
 }
 
 .header {
@@ -26,7 +26,7 @@
 }
 .header .nav a {
     text-decoration: none;
-    color:#161719 ;
+    color:white ;
     font-size: 17px;
     margin-left: 20px;
     font-weight: 600;
@@ -49,45 +49,11 @@
     background-image: url(../imagens/Black\ Circle\ Icon\ Business\ Logo.png);
     background-repeat: no-repeat;
     width: 450px;
+    padding: 150px;
     position: relative;
-    padding: 100px 30px;
     backdrop-filter: blur(20px);
 }
-.content a {
-    position: relative;
-    text-decoration: none;
-    color: #161719;
-    font-size: 3em;
-    font-weight: 700;
-    top:  -40px;
-    left: 80px;
-}
-.content h2 {
-    font-size:  3.5em;
-    text-align: center;
-    color: #161719;
-}
-.content h3 {
-    font-size: 2em;
-    text-align: center;
-    color: #161719;
-}
-.content pre {
-    margin-top: 20px;
-    text-align: center;
-    font: 1em;
-    color: #161719;
-}
-.content .icon {
-    margin-top: 20px;
-    font-size: 1.5em;
-    display: flex;
-    justify-content: center;
-}
-.content .icon i {
-    margin-left: 20px;
-    color: #161719;
-}
+
 .login {
     width: 450px;
     position: relative;
@@ -98,7 +64,7 @@
     font-size: 2em;
     text-align: center;
     margin-bottom: 20px;
-    color: #161719;
+    color: white;
 }
 .login .input {
     position: relative;
@@ -112,11 +78,11 @@
 }
 .login .Entrar a{
     text-decoration: none;
-    color: #161719;
+    color:white;
     font-weight: 700;
 }
 .login .Entrar p {
-    color: #161719;
+    color: white;
 }
 .Entrar a:hover {
     text-decoration: underline;
@@ -125,7 +91,7 @@
     position: absolute;
     right: 110px;
     top: 22px;
-    color: #161719;
+    color: white;
 }
 .background {
     width: 100%;
@@ -145,13 +111,13 @@
     background-size: cover;
     display: flex;
     margin-top: 10px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 10px;
     border: none;
 }
 .check a {
     text-decoration:  none;
-    color: #161719;
+    color: white;
 }
 .check a:hover {
     text-decoration: underline;
@@ -171,7 +137,7 @@ button {
     font-size: 20px;
     font-weight: 700;
     border-radius: 7px;
-    color: #161719;
+    color: white;
 }
 button:active {
     font-size: 25px;
@@ -185,34 +151,31 @@ button:active {
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 2px solid #161719;
-    color: #161719;
+    border-bottom: 2px solid white;
+    color: white;
     width: 100%;
     height: 100%;
 }
 ::placeholder {
-    color: #161719;
+    color: white;
     font-size: 18px;
 }
 .login .input i {
     position: relative;
     right: -370px;
     bottom: 27px;
-    color: #161719;
+    color: white;
 }
 .check {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
-    color: #161719;
+    color: white;
 }
-@media screen and (max-width: 1330px) {
-    .login {
-        width: 100%;
+@media screen and (max-width: 900px) {
+    .content {
+        display: none;
     }
-    .content{
-       display: none;
-    }  
-    .inicio{}  
+    
 }
 
