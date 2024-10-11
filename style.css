@@ -67,6 +67,14 @@ body {
     font-size: 20px;
 }
 
+.input-box span {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
 .wrapper .lembre-me{
     display: flex;
     justify-content: space-between;
