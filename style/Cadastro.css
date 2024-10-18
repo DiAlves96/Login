@@ -20,13 +20,13 @@ body{
     background-position: center;
 }
 .container{
-    width: 80%;
+    width: 420px;
     height: 80vh;
     display: flex;
     
 }
 .form {
-    width: 100%;
+    width: 420px;
     display: flex;
     justify-content: center;
     align-items: center;
